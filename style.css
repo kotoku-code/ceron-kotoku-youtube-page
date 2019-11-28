@@ -1,0 +1,36 @@
+.nav-bar{
+    display: flex;
+   
+}
+
+ul{
+    display: flex;
+    background-color: black;
+    color: blanchedalmond;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.main-video{
+    display: flex;
+    background-color: cornflowerblue;
+    flex-grow: 1;
+}
+
+.comments{
+    display: flex;
+    background-color: darkgoldenrod;
+    flex-grow: 1;
+}
+
+.side-bar{
+    display: flex;
+    background-color: darkgreen;
+    flex-grow: 3;
+}
+
+.bottom-page{
+    display: flex;
+    background-color: darkslateblue;
+    flex-grow: 1;
+}
