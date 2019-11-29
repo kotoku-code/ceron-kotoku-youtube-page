@@ -1,3 +1,27 @@
+/*head{
+)*/
+
+.navigation_bar{
+    display: flex;
+    background-color: black;
+    color: blanchedalmond;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    margin-top: auto;
+    height: 20px;
+    position: fixed;
+}
+
+.navigation_bar__nav_logo{
+    length: 10px;
+    height: 10px;
+}
+
+.navigation_bar__
+
+
+
 /*body{
     display: flex;
     flex-direction: column;
@@ -11,33 +35,22 @@ body{
 }
 
 .nav-bar{
-    
-    
-   
+
+
+
 }
 
-ul{
-    display: flex;
-    background-color: black;
-    color: blanchedalmond;
-    align-items: center;
-    justify-content: space-between;
-    width: 100%;
-    margin-top: auto;
-    height: 20px;
-    position: fixed;
-}
 
 
 section{
-    
+
     margin-right: auto;
     width: 50%;
     height: 30px;
     position: absolute;
     top: 30px;
     float: left;
-    
+
 }
 
 article{
@@ -49,40 +62,39 @@ article{
 }
 
 .video-comments{
-    
+
     background-color: cornflowerblue;
-    
-    
- 
+
+
+
 }
 
 aside{
-    
+
     width: 50%;
     position: absolute;
     right: 0px;
     top: 30px;
-    
-    
+
+
 }
 
 .side-bar{
 
     background-color: darkgreen;
     width: 40%;
-   
-    
+
+
 }
 footer{
     position: absolute;
     width: 100%;
-    
+
 }
 
 .bottom-page{
-    
+
     background-color: darkslateblue;
     bottom: 100px;
 
 }
-
