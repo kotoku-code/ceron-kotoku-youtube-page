@@ -1,5 +1,11 @@
+/*body{
+    display: flex;
+    flex-direction: column;
+}*/
+
 .nav-bar{
     display: flex;
+
    
 }
 
@@ -9,28 +15,57 @@ ul{
     color: blanchedalmond;
     align-items: center;
     justify-content: space-between;
+    
+    margin-top: auto;
+    height: 10%;
 }
 
-.main-video{
-    display: flex;
+
+section{
+    
+    margin-right: auto;
+    width: 60%;
+    position: fixed;
+    height: 20%;
+}
+
+article{
+    width: 60%;
+    position: fixed;
+    margin-right: auto;
+    height: 20%;
+
+}
+
+.video-comments{
+    
     background-color: cornflowerblue;
-    flex-grow: 1;
+    
+    
+ 
 }
 
-.comments{
-    display: flex;
-    background-color: darkgoldenrod;
-    flex-grow: 1;
+aside{
+    
+    width: 40%;
+    right: 0px;
+    position: fixed;
+
+    
+    
 }
 
 .side-bar{
-    display: flex;
+
     background-color: darkgreen;
-    flex-grow: 3;
+    width: 40%;
+   
+    
 }
 
 .bottom-page{
     display: flex;
     background-color: darkslateblue;
-    flex-grow: 1;
+    margin-bottom: auto;
 }
+
