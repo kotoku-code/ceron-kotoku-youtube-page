@@ -3,10 +3,15 @@
     flex-direction: column;
 }*/
 
-.nav-bar{
-    display: flex;
+body{
+    position: relative;
+    height: 1000px;
+    padding: 5px;
+    border: 5px;
+}
 
-   
+.nav-bar{
+    position: fixed;
 }
 
 ul{
@@ -24,17 +29,20 @@ ul{
 section{
     
     margin-right: auto;
-    width: 60%;
-    position: fixed;
-    height: 20%;
+    width: 50%;
+    height: 30px;
+    position: absolute;
+    top: 30px;
+    float: left;
+    
 }
 
 article{
-    width: 60%;
-    position: fixed;
-    margin-right: auto;
-    height: 20%;
-
+    width: 50%;
+    position: absolute;
+    height: 30px;
+    top: 70px;
+    float: left;
 }
 
 .video-comments{
@@ -47,10 +55,10 @@ article{
 
 aside{
     
-    width: 40%;
+    width: 50%;
+    position: absolute;
     right: 0px;
-    position: fixed;
-
+    top: 30px;
     
     
 }
@@ -62,10 +70,16 @@ aside{
    
     
 }
+footer{
+    position: absolute;
+    width: 100%;
+    
+}
 
 .bottom-page{
-    display: flex;
+    
     background-color: darkslateblue;
-    margin-bottom: auto;
+    bottom: 100px;
+
 }
 
