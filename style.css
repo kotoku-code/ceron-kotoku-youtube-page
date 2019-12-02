@@ -46,8 +46,11 @@
 
 .logo5 {
     position: fixed;
-    height: 40px;
-    length: 100px;
+    height: 60px;
+    width: 50px;
+    left: 20px;
+    padding: 5px;
+    border: 5px;
     cursor: pointer;
 }
 
@@ -55,12 +58,18 @@
     position: fixed;
     height: 40px;
     width: 100px;
+    left: 90px;
+    padding: 5px;
+    border: 5px;
+}
 
+#odin {
+    position: fixed;
+    left: 90px;
 }
 
 .navigation_bar {
     position: fixed;
-    
 }
 
 .navbar_list {
@@ -115,7 +124,6 @@ article {
 }
 
 .video-comments {
-
     background-color: cornflowerblue;
 }
 
@@ -143,17 +151,29 @@ aside {
 }
 
 .video-description {
-        background-color: orange;
-        position: fixed;
-        top: 480px;
+    /*display: flex;*/
+    background-color: orange;
+    position: fixed;
+    top: 480px;
 }
 
-.video-description-list {
-      display: flex;
-      flex-direction: row;
-      padding: 5px;
-      border: 5px;
-      left: 15px;
+.video-description-list-1 {
+    padding: 5px;
+    border: 5px;
+    left: 15px;
+}
+
+.video-description-list-2 {
+    display: flex;
+    flex-direction: column;
+    padding: 5px;
+    border: 5px;
+}
+
+.video-description-list-3 {}
+
+.video-description-list-3-p {
+    float: right;
 }
 
 .main-video {
@@ -177,16 +197,14 @@ li {
 }
 
 .footer {
-  position: relative;
-  left: 0;
-  bottom: 0;
-  width: 100%;
-  background-color: red;
-  color: white;
-  text-align: center;
+    position: relative;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: red;
+    color: white;
+    text-align: center;
 }
-
-
 
 .bottom-page {
     background-color: darkslateblue;
