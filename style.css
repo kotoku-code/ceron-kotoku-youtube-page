@@ -2,111 +2,92 @@
 )*/
 
 * {
-  box-sizing: border-box;
-  margin: 0;
-  padding: 0;
-  background-color: #808080;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    background-color: #808080;
 }
 
 .logo {
-     position: fixed;
-     top: 0px;
-     left: 0px;
-     height: 40px;
-     length: 100px;
-     cursor: pointer;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    height: 40px;
+    length: 100px;
+    cursor: pointer;
 }
 
 .logo2 {
-  position: fixed;
-  top: 0px;
-  right: 0px;
-  height: 40px;
-  length: 100px;
-  cursor: pointer;
+    position: fixed;
+    top: 0px;
+    right: 0px;
+    height: 40px;
+    length: 100px;
+    cursor: pointer;
 }
 
 .logo3 {
-  position: fixed;
-  top: 0px;
-  right: 40px;
-  height: 40px;
-  length: 100px;
-  cursor: pointer;
+    position: fixed;
+    top: 0px;
+    right: 40px;
+    height: 40px;
+    length: 100px;
+    cursor: pointer;
 }
 
-.logo4{
-  position: fixed;
-  top: 0px;
-  right: 80px;
-  height: 40px;
-  length: 100px;
-  cursor: pointer;
-
+.logo4 {
+    position: fixed;
+    top: 0px;
+    right: 80px;
+    height: 40px;
+    length: 100px;
+    cursor: pointer;
 }
-
 
 .navbar_list {
-     list-style: none;
-     display: flex;
-     color: blanchedalmond;
-     align-items: center;
-     width: 100%;
-     margin-top: auto;
-     height: 20px;
-     position: fixed;
+    list-style: none;
+    display: flex;
+    color: blanchedalmond;
+    align-items: center;
+    width: 100%;
+    margin-top: auto;
+    height: 20px;
+    position: fixed;
 }
 
 .navbar_list li {
-      display: flex;
-      display: inline-block;
-      padding: 0px 20px;
-      justify-content: flex-end;
+    display: flex;
+    display: inline-block;
+    padding: 0px 20px;
+    justify-content: flex-end;
 }
 
-.navbar_list li input button{
-  display: flex;
-  color: purple;
+.navbar_list li input button {
+    display: flex;
+    color: purple;
 }
 
 .navbar_div {
     display: flex;
-
     margin: 0 auto;
 }
 
-/*body{
-    display: flex;
-    flex-direction: column;
-}*/
-
-body{
+body {
     position: relative;
-    height: 1000px;
     padding: 5px;
     border: 5px;
 }
 
-.nav-bar{
-
-
-
-}
-
-
-
-section{
-
+section {
     margin-right: auto;
     width: 50%;
     height: 30px;
     position: absolute;
     top: 30px;
     float: left;
-
 }
 
-article{
+article {
     width: 50%;
     position: absolute;
     height: 30px;
@@ -114,40 +95,51 @@ article{
     float: left;
 }
 
-.video-comments{
-
+.video-comments {
     background-color: cornflowerblue;
-
-
-
 }
 
-aside{
-
-    width: 50%;
+aside {
+    padding: 5px;
+    border: 5px;
     position: absolute;
     right: 0px;
-    top: 30px;
-
-
+    top: 75px;
 }
 
-.side-bar{
-
+.side-bar {
+    display: flex;
+    flex-direction: column;
     background-color: darkgreen;
-    width: 40%;
-
-
+    width: 30%;
 }
-footer{
+
+.side-bar-content {
+    padding: 5px;
+    border: 5px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+li {
+    display: flex;
+    list-style: none;
+    padding: 5px;
+    border: 5px;
+}
+
+.side-bar-video {
+    height: 120px;
+    width: 200px;
+}
+
+footer {
     position: absolute;
     width: 100%;
-
 }
 
-.bottom-page{
-
+.bottom-page {
     background-color: darkslateblue;
     bottom: 100px;
-
 }
