@@ -1,26 +1,79 @@
 /*head{
 )*/
 
-.navigation_bar{
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  background-color: #808080;
+}
+
+.logo {
+     position: fixed;
+     top: 0px;
+     left: 0px;
+     height: 40px;
+     length: 100px;
+     cursor: pointer;
+}
+
+.logo2 {
+  position: fixed;
+  top: 0px;
+  right: 0px;
+  height: 40px;
+  length: 100px;
+  cursor: pointer;
+}
+
+.logo3 {
+  position: fixed;
+  top: 0px;
+  right: 40px;
+  height: 40px;
+  length: 100px;
+  cursor: pointer;
+}
+
+.logo4{
+  position: fixed;
+  top: 0px;
+  right: 80px;
+  height: 40px;
+  length: 100px;
+  cursor: pointer;
+
+}
+
+
+.navbar_list {
+     list-style: none;
+     display: flex;
+     color: blanchedalmond;
+     align-items: center;
+     width: 100%;
+     margin-top: auto;
+     height: 20px;
+     position: fixed;
+}
+
+.navbar_list li {
+      display: flex;
+      display: inline-block;
+      padding: 0px 20px;
+      justify-content: flex-end;
+}
+
+.navbar_list li input button{
+  display: flex;
+  color: purple;
+}
+
+.navbar_div {
     display: flex;
-    background-color: black;
-    color: blanchedalmond;
-    align-items: center;
-    justify-content: space-between;
-    width: 100%;
-    margin-top: auto;
-    height: 20px;
-    position: fixed;
+
+    margin: 0 auto;
 }
-
-.navigation_bar__nav_logo{
-    length: 10px;
-    height: 10px;
-}
-
-.navigation_bar__
-
-
 
 /*body{
     display: flex;
