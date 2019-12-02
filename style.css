@@ -44,6 +44,25 @@
     cursor: pointer;
 }
 
+.logo5 {
+    position: fixed;
+    height: 40px;
+    length: 100px;
+    cursor: pointer;
+}
+
+.logo6 {
+    position: fixed;
+    height: 40px;
+    width: 100px;
+
+}
+
+.navigation_bar {
+    position: fixed;
+    
+}
+
 .navbar_list {
     list-style: none;
     display: flex;
@@ -96,6 +115,7 @@ article {
 }
 
 .video-comments {
+
     background-color: cornflowerblue;
 }
 
@@ -122,6 +142,28 @@ aside {
     align-items: center;
 }
 
+.video-description {
+        background-color: orange;
+        position: fixed;
+        top: 480px;
+}
+
+.video-description-list {
+      display: flex;
+      flex-direction: row;
+      padding: 5px;
+      border: 5px;
+      left: 15px;
+}
+
+.main-video {
+    position: fixed;
+    top: 70px;
+    height: 400px;
+    width: 68%;
+    padding-left: 1%;
+}
+
 li {
     display: flex;
     list-style: none;
@@ -134,10 +176,17 @@ li {
     width: 200px;
 }
 
-footer {
-    position: absolute;
-    width: 100%;
+.footer {
+  position: relative;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: red;
+  color: white;
+  text-align: center;
 }
+
+
 
 .bottom-page {
     background-color: darkslateblue;
