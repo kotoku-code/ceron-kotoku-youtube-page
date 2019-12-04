@@ -69,20 +69,15 @@
     left: 90px;
 }
 */
-.subs {
 
-
-}
-
-.subs_div {
-
-}
 
 nav{
     display: flex;
     justify-content: space-between;
     margin-bottom: 20px;
     position: fixed;
+    width: 100%;
+    background-color: brown;
    
    
     
@@ -111,7 +106,7 @@ nav ul{
     width: 7%;
 }
 
-.navigation_bar {
+/*.navigation_bar {
     position: fixed;
     width: 100%;
     top: 3px;
@@ -145,13 +140,7 @@ nav ul{
     display: flex;
     margin: 0 auto;
 }
-
-body {
-    
-    padding: 5px;
-    border: 5px;
-}
-
+*/
 section {
     margin-right: auto;
     width: 50%;
@@ -224,6 +213,7 @@ aside {
     width: 65%;
     float: left;
     margin-top: 60px;
+    padding-left: 20px;
 }
 
 .main-video {
