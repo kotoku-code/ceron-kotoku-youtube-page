@@ -9,7 +9,7 @@
 }
 
 .logo {
-    position: fixed;
+    
     top: 0px;
     left: 0px;
     height: 40px;
@@ -18,7 +18,7 @@
 }
 
 .logo2 {
-    position: fixed;
+    
     top: 0px;
     right: 0px;
     height: 40px;
@@ -27,7 +27,7 @@
 }
 
 .logo3 {
-    position: fixed;
+    
     top: 0px;
     right: 40px;
     height: 40px;
@@ -36,7 +36,7 @@
 }
 
 .logo4 {
-    position: fixed;
+    
     top: 0px;
     right: 80px;
     height: 40px;
@@ -45,7 +45,7 @@
 }
 
 .logo5 {
-    position: fixed;
+    
     height: 70px;
     width: 70px;
     left: 20px;
@@ -55,7 +55,7 @@
 }
 
 .logo6 {
-    position: fixed;
+    
     height: 40px;
     width: 100px;
     left: 90px;
@@ -64,7 +64,7 @@
 }
 
 #odin {
-    position: fixed;
+    
     top: 515px;
     left: 90px;
 }
@@ -78,10 +78,40 @@
 
 }
 
+nav{
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+nav ul{
+    display: flex;
+    justify-content: center;
+    
+}
+
+.container-center{
+    width: 50%;
+
+}
+
+#search-bar {
+    width: 80%;
+}
+
+#search-bar input{
+    width: 93%;
+}
+
+#search-bar button{
+    width: 7%;
+}
 
 .navigation_bar {
     position: fixed;
+    width: 100%;
     top: 3px;
+    height: 50px;
 }
 
 .navbar_list {
@@ -92,7 +122,7 @@
     width: 100%;
     margin-top: auto;
     height: 20px;
-    position: fixed;
+   
 }
 
 .navbar_list li {
@@ -113,7 +143,7 @@
 }
 
 body {
-    position: relative;
+    
     padding: 5px;
     border: 5px;
 }
@@ -122,7 +152,7 @@ section {
     margin-right: auto;
     width: 50%;
     height: 30px;
-    position: absolute;
+    
     top: 30px;
     float: left;
 }
@@ -135,9 +165,9 @@ section {
 aside {
     padding: 5px;
     border: 5px;
-    position: absolute;
-    right: 0px;
-    top: 75px;
+    /*position: 
+    /*top: 75px;*/
+    float: right;
 }
 
 .side-bar {
@@ -145,6 +175,7 @@ aside {
     flex-direction: column;
     background-color: darkgreen;
     width: 30%;
+
 }
 
 .side-bar-content {
@@ -158,7 +189,7 @@ aside {
 .video-description {
     /*display: flex;*/
     background-color: orange;
-    position: fixed;
+    
     top: 480px;
     width: 65%;
     height: 30%;
@@ -185,8 +216,8 @@ aside {
 }
 
 .main-video {
-    position: fixed;
-    top: 70px;
+    
+    
     height: 400px;
     width: 68%;
     padding-left: 1%;
@@ -206,7 +237,7 @@ li {
 
 article {
     width: 50%;
-    position: absolute;
+
     height: 30px;
     top: 70px;
     float: left;
@@ -216,7 +247,7 @@ article {
 .main-video-icons-1{
 display: flex;
 flex-direction: row;
-position: fixed;
+
 top: 640px;
 
 padding: 5px;
@@ -227,7 +258,7 @@ border: 5px;
 .main-video-icons-2{
     display: flex;
     flex-direction: row;
-    position: fixed;
+    
     top: 640px;
     left: 750px;
     padding: 5px;
@@ -241,7 +272,7 @@ border: 5px;
 
 .footer {
     
-    position: absolute;
+    
     bottom: 10px;
     width: 100%;
     background-color: red;
