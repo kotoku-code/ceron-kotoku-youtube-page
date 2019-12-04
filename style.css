@@ -7,13 +7,13 @@
     padding: 0;
 
 }
-
+/*
 .logo {
     
     top: 0px;
     left: 0px;
     height: 40px;
-    length: 100px;
+    
     cursor: pointer;
 }
 
@@ -22,7 +22,7 @@
     top: 0px;
     right: 0px;
     height: 40px;
-    length: 100px;
+    
     cursor: pointer;
 }
 
@@ -31,7 +31,7 @@
     top: 0px;
     right: 40px;
     height: 40px;
-    length: 100px;
+    
     cursor: pointer;
 }
 
@@ -68,7 +68,7 @@
     top: 515px;
     left: 90px;
 }
-
+*/
 .subs {
 
 
@@ -81,6 +81,10 @@
 nav{
     display: flex;
     justify-content: space-between;
+    margin-bottom: 20px;
+    position: fixed;
+   
+   
     
 }
 
@@ -168,6 +172,7 @@ aside {
     /*position: 
     /*top: 75px;*/
     float: right;
+    margin-top: 60px;
 }
 
 .side-bar {
@@ -215,12 +220,17 @@ aside {
     right: 150px;
 }
 
+.main{
+    width: 65%;
+    float: left;
+    margin-top: 60px;
+}
+
 .main-video {
-    
-    
+    width: 100%;
     height: 400px;
-    width: 68%;
-    padding-left: 1%;
+    
+   
 }
 
 li {
@@ -270,13 +280,14 @@ border: 5px;
 }
 
 
-.footer {
+/*footer {
     
     
-    bottom: 10px;
+    
     width: 100%;
     background-color: red;
     color: white;
     text-align: center;
+   
 }
-
+/*
