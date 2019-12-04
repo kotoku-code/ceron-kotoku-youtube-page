@@ -81,6 +81,7 @@
 
 .navigation_bar {
     position: fixed;
+    top: 3px;
 }
 
 .navbar_list {
@@ -126,13 +127,6 @@ section {
     float: left;
 }
 
-article {
-    width: 50%;
-    position: absolute;
-    height: 30px;
-    top: 70px;
-    float: left;
-}
 
 .video-comments {
     background-color: cornflowerblue;
@@ -210,17 +204,48 @@ li {
     width: 200px;
 }
 
+article {
+    width: 50%;
+    position: absolute;
+    height: 30px;
+    top: 70px;
+    float: left;
+}
+
+
+.main-video-icons-1{
+display: flex;
+flex-direction: row;
+position: fixed;
+top: 640px;
+
+padding: 5px;
+border: 5px;
+
+}
+
+.main-video-icons-2{
+    display: flex;
+    flex-direction: row;
+    position: fixed;
+    top: 640px;
+    left: 750px;
+    padding: 5px;
+    border: 5px;   
+}
+
+#icon1 #icon2 #icon3{
+    
+}
+
+
 .footer {
-    position: relative;
-    left: 0;
-    bottom: 0;
+    
+    position: absolute;
+    bottom: 10px;
     width: 100%;
     background-color: red;
     color: white;
     text-align: center;
 }
 
-.bottom-page {
-    background-color: darkslateblue;
-    bottom: 100px;
-}
