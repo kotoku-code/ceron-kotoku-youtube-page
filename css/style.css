@@ -1,4 +1,18 @@
 /*  */
+/*Normalize and reset the webpage*/
+
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+}
+
+body {
+    font-size: .8rem;
+    box-sizing: border-box;
+}
 
 
 /*body*/
@@ -10,7 +24,7 @@
 }
 /*youtube*/
 
-.navigation_bar__logo-box {
+.navigation_bar__logo_box {
   position: absolute;
   top: 0;
   left: 4rem;
@@ -28,30 +42,31 @@
   left: 16rem;
 }
 
-.navigation_bar__search_box {
-  width: 33rem;
-  height: 2rem;
+
+.search_box {
+    width: 33rem;
+    height: 2rem;
 }
 
-.search--btn {
+.search__btn {
     margin-left: 0;
-    top: -.34rem;
+    top: .6rem;
     height: 2.1rem;
     width: 3rem;
     position: relative;
 }
 
-.search-icon {
+.search_icon {
     border-radius: .2rem;
     position: absolute;
     top: .5rem;
-    left: -.1rem;
+    left: .5rem;
     height: 8rem;
 }
 
 /*Right Side Icons*/
 
-.navigation-bar__icon {
+.navigation_bar__icons {
     position: absolute;
     top: .5rem;
     left: 58rem;
@@ -61,30 +76,15 @@
     justify-content: space-evenly;
 }
 
-.nav_icon__upload {
-    height: 2rem;
+.hamburger__icon {
+    height: 4vh;
 }
 
-.nav_logo_youtube {
-    height: 2rem;
+.upload__icon {
+  height: 4vh;
 }
 
-.nav_logo__profile{
+.profile__icon {
   border-radius: 50%;
   height: 2rem;
 }
-
-    /*main video embed*/
-
-
-
-
-.video_main {
-  background-color: rgb(233, 233, 233);
-  height: 100vh;
-  position: relative;
-}
-
-
-
-/*footer*/
