@@ -1,4 +1,3 @@
-/*  */
 /*Normalize and reset the webpage*/
 
 *,
@@ -14,41 +13,38 @@ body {
     box-sizing: border-box;
 }
 
+/*NAVBAR CSS*/
+/*Youtube Logo*/
 
-/*body*/
-    /*navbar*/
-
-.navigation_bar{
-  position: relative;
-  height: 9vh;
-}
-/*youtube*/
-
-.navigation_bar__logo_box {
-  position: absolute;
-  top: 0;
-  left: 4rem;
+.navigation-bar {
+    position: relative;
+    height: 9vh;
 }
 
-.nav_logo_youtube {
+.navigation-bar__logo-box {
+    position: absolute;
+    top: 0;
+    left: 4rem;
+}
+
+.logo {
     height: 3.3rem;
 }
 
-/*search_box*/
+/*Search Box*/
 
-.navigation_bar__search_box {
-  position: absolute;
-  top: .5rem;
-  left: 16rem;
+.navigation-bar__search-box {
+    position: absolute;
+    top: .5rem;
+    left: 16rem;
 }
 
-
-.search_box {
+.search-box {
     width: 33rem;
     height: 2rem;
 }
 
-.search__btn {
+.search--btn {
     margin-left: 0;
     top: -.34rem;
     height: 2.1rem;
@@ -56,7 +52,7 @@ body {
     position: relative;
 }
 
-.search_icon {
+.search-icon {
     border-radius: .2rem;
     position: absolute;
     top: .5rem;
@@ -66,7 +62,7 @@ body {
 
 /*Right Side Icons*/
 
-.navigation_bar__icons {
+.navigation-bar__icon {
     position: absolute;
     top: .5rem;
     left: 58rem;
@@ -76,11 +72,11 @@ body {
     justify-content: space-evenly;
 }
 
-.nav_icon_hamburguer, .hamburger__icon {
-    height: 20px;
+.upload--icon, .bell--icon {
+    height: 2rem;
 }
 
-.profile__icon {
-  border-radius: 50%;
-  height: 2rem;
+.user--icon {
+    border-radius: 50%;
+    height: 2rem;
 }

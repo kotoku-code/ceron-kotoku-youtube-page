@@ -1,18 +1,4 @@
 /*  */
-/*Normalize and reset the webpage*/
-
-*,
-*::before,
-*::after {
-    margin: 0;
-    padding: 0;
-    box-sizing: inherit;
-}
-
-body {
-    font-size: .8rem;
-    box-sizing: border-box;
-}
 
 
 /*body*/
@@ -24,7 +10,7 @@ body {
 }
 /*youtube*/
 
-.navigation_bar__logo_box {
+.navigation_bar__logo-box {
   position: absolute;
   top: 0;
   left: 4rem;
@@ -42,13 +28,12 @@ body {
   left: 16rem;
 }
 
-
-.search_box {
-    width: 33rem;
-    height: 2rem;
+.navigation_bar__search_box {
+  width: 33rem;
+  height: 2rem;
 }
 
-.search__btn {
+.search--btn {
     margin-left: 0;
     top: -.34rem;
     height: 2.1rem;
@@ -56,7 +41,7 @@ body {
     position: relative;
 }
 
-.search_icon {
+.search-icon {
     border-radius: .2rem;
     position: absolute;
     top: .5rem;
@@ -66,7 +51,7 @@ body {
 
 /*Right Side Icons*/
 
-.navigation_bar__icons {
+.navigation-bar__icon {
     position: absolute;
     top: .5rem;
     left: 58rem;
@@ -76,11 +61,30 @@ body {
     justify-content: space-evenly;
 }
 
-.nav_icon_hamburguer, .hamburger__icon {
-    height: 20px;
+.nav_icon__upload {
+    height: 2rem;
 }
 
-.profile__icon {
+.nav_logo_youtube {
+    height: 2rem;
+}
+
+.nav_logo__profile{
   border-radius: 50%;
   height: 2rem;
 }
+
+    /*main video embed*/
+
+
+
+
+.video_main {
+  background-color: rgb(233, 233, 233);
+  height: 100vh;
+  position: relative;
+}
+
+
+
+/*footer*/
