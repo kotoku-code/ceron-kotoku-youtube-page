@@ -26,7 +26,7 @@ body {
 
 .navigation_bar__logo_box {
   position: absolute;
-  top: 0;
+  top: .8rem;
   left: 4rem;
 }
 
@@ -48,12 +48,13 @@ body {
     height: 2rem;
 }
 
+
 .search__btn {
-    margin-left: 0;
-    top: .6rem;
-    height: 2.1rem;
-    width: 3rem;
-    position: relative;
+  margin-left: 0;
+  top: .6rem;
+  height: 2.1rem;
+  width: 3rem;
+  position: relative;
 }
 
 .search_icon {
@@ -76,15 +77,104 @@ body {
     justify-content: space-evenly;
 }
 
-.hamburger__icon {
-    height: 4vh;
-}
-
-.upload__icon {
-  height: 4vh;
+.hamburger__icon, .upload__icon {
+    height: 6vh;
 }
 
 .profile__icon {
   border-radius: 50%;
-  height: 2rem;
+  height: 2.5rem;
+}
+
+
+/*MAIN VIDEO*/
+
+.main_video {
+  background-color: rgb(233, 233, 233);
+  height: 100vh;
+  position: relative;
+}
+
+.main_video__now_playing {
+      width: 50rem;
+}
+
+.main_video__container{
+    margin: 1.8rem;
+    margin-right: 0 !important;
+    margin-bottom: 0 !important;
+}
+
+.main_video__title {
+  position: absolute;
+  top: 26.2rem;
+}
+
+.main_video__title_container p{
+  font-size: 1.4rem;
+  font-weight: 250;
+  font-family: 'Arial';
+}
+
+.main_video__main_attributes {
+  position: absolute;
+  top: 28.7rem;
+  font-size: 1.1rem;
+  font-weight: 250;
+  color: rgb(71, 71, 71);
+  font-family: 'Arial';
+}
+
+.main_video__main_attributes__container {
+      position: relative;
+}
+
+/*  sideBar */
+
+
+.side_nav {
+    margin: .8rem;
+    position: absolute;
+    top: 0;
+    left: 56rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.side_nav__video {
+    margin: 1rem;
+    display: flex;
+    flex-direction: row;
+}
+
+.side_nav__details {
+    padding: 0 1rem;
+}
+
+.side_nav__video__details__views {
+    margin-top: .7rem;
+    color: rgb(97, 97, 97);
+}
+
+.avatar__details {
+    position: relative;
+}
+
+.avatar {
+    position: absolute;
+    top: 6rem;
+    left: 2rem;
+}
+
+.subscribe {
+    position: absolute;
+    top: 6rem;
+    left: 38rem;
+}
+
+.btn-subscribe {
+    background-color: red;
+    color: white;
+    padding: .5rem;
 }
