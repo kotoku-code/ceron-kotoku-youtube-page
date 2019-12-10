@@ -69,7 +69,7 @@ body {
 
 .navigation_bar__icons {
     position: absolute;
-    top: .5rem;
+    top: 1rem;
     left: 58rem;
     width: 15rem;
     display: flex;
@@ -91,8 +91,9 @@ body {
 
 .main_video {
   background-color: rgb(233, 233, 233);
-  height: 100vh;
+  height: 110vh;
   position: relative;
+
 }
 
 .main_video__now_playing {
@@ -103,12 +104,15 @@ body {
     margin: 1.8rem;
     margin-right: 0 !important;
     margin-bottom: 0 !important;
+
 }
 
 .main_video__title {
   position: absolute;
   top: 26.2rem;
+
 }
+
 
 .main_video__title_container p{
   font-size: 1.4rem;
@@ -119,6 +123,7 @@ body {
 .main_video__main_attributes {
   position: absolute;
   top: 28.7rem;
+  left: 38rem;
   font-size: 1.1rem;
   font-weight: 250;
   color: rgb(71, 71, 71);
@@ -126,10 +131,50 @@ body {
 }
 
 .main_video__main_attributes__container {
+      flex: auto;
       position: relative;
+      top: 5rem;
+      width: 500px;
+      left: -35rem;
 }
 
+.views {
+    position: relative;
+    left: 10;
+}
+
+.main_video__main_attributes__container .i1 {
+      padding: 0;
+      border: 0;
+}
+
+
+.main_video__main_attributes__container .i2 {
+      padding: 0;
+      border: 0;
+}
+
+.main_video__main_attributes__container .i3 {
+      padding: 0;
+      border: 0;
+}
+
+
+.my-4 {
+      width: 800px;
+}
+
+/* video information*/
+
+.video_info {
+  position: relative;
+  top: 6.2rem;
+  width: 25%;
+}
+
+
 /*  sideBar */
+
 
 
 .side_nav {
@@ -140,6 +185,7 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
+    background-color: rgb(233, 233, 233);
 }
 
 .side_nav__video {
@@ -148,8 +194,24 @@ body {
     flex-direction: row;
 }
 
+.side_nav__video img {
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  padding: 5px;
+  width: 150px;
+}
+
+.side_nav__video img:hover {
+  box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);
+}
+
+
 .side_nav__details {
     padding: 0 1rem;
+    font-size: 1.1rem;
+    font-weight: 250;
+    color: rgb(71, 71, 71);
+    font-family: 'Arial';
 }
 
 .side_nav__video__details__views {
@@ -163,14 +225,31 @@ body {
 
 .avatar {
     position: absolute;
-    top: 6rem;
-    left: 2rem;
+    top: 3.5rem;
+    left: 1rem;
+}
+
+.avatar_title {
+    position: absolute;
+    top: 3.5rem;
+    left: 5rem;
+    padding: 0 1rem;
+    font-size: 1.1rem;
+    font-weight: 250;
+    color: rgb(71, 71, 71);
+    font-family: 'Arial';
+}
+
+.avatar__icon{
+  border-radius: 50%;
+  height: 4rem;
+  top: 3rem;
 }
 
 .subscribe {
     position: absolute;
-    top: 6rem;
-    left: 38rem;
+    top: 5rem;
+    left: 7rem;
 }
 
 .btn-subscribe {
