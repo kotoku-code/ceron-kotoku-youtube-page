@@ -132,6 +132,7 @@ body {
 
 .main_video__main_attributes__container {
       flex: auto;
+      display: flex;
       position: relative;
       top: 5rem;
       width: 500px;
@@ -171,6 +172,12 @@ body {
   top: 6.2rem;
   width: 25%;
   background-color:lightblue
+
+}
+
+.video_info span {
+    display: block;
+
 }
 
 
