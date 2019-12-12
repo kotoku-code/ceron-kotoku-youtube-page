@@ -14,6 +14,16 @@ navigation bar (that contains: logo, searchbox-with button-, and user icons),
 the main video (contains: title, like and dislike, user avatar, views and subscribe button)
 and a side bar with recommended videos (Contains: video title andd views).
 
+## Built With
+
+- HTML,
+- CSS
+
+## Live Demo
+
+[Live Demo Link](http://htmlpreview.github.io/?https://github.com/kotoku-code/ceron-kotoku-youtube-page/blob/feature-youtube-page-prototype/index.html)
+
+
 ##Contributor
 
 Jorge Cerón 
