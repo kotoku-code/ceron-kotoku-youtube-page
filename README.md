@@ -4,8 +4,6 @@
 About the project
 This HTML/CSS project is the first on the Microverse course. The aim of the project is to make a clone of youtube previous version. 
 
-##Preview Here's a link to a preview of our site.
-
 ![screenshot](./app_screenshot.png)
 
 The clone of the youtube video channel contains a: 
