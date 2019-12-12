@@ -23,8 +23,33 @@ and a side bar with recommended videos (Contains: video title andd views).
 
 [Live Demo Link](http://htmlpreview.github.io/?https://github.com/kotoku-code/ceron-kotoku-youtube-page/blob/feature-youtube-page-prototype/index.html)
 
-
-##Contributor
+👤 **Author**
 
 Jorge Cerón 
-jorge.ceron.gil@gmail.com
+- Github: [@duducus](https://github.com/duducus)
+- Twitter: [@jorge_ceron](https://twitter.com/ceronjorge1)
+- Linkedin: [linkedin](https://www.linkedin.com/in/jorge-francisco-cer%C3%B3n-gil-343583113/)
+- Google: jorge.ceron.gil@gmail.com
+
+
+## 🤝 Contributing
+
+Contributions, issues and feature requests are welcome!
+
+Feel free to check the [issues page](https://github.com/microverseinc/readme-template/issues).
+
+## Show your support
+
+Give a ⭐️ if you like this project!
+
+## Acknowledgments
+
+- Hat tip to anyone whose code was used
+- Inspiration
+- etc
+
+## 📝 License
+
+This project is [MIT](lic.url) licensed.
+
+
