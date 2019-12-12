@@ -76,7 +76,7 @@ body {
 .navigation_bar__icons {
   position: absolute;
   top: 1rem;
-  left: 58rem;
+  left: 82%;
   width: 15rem;
   display: flex;
   flex-direction: row;
@@ -172,7 +172,7 @@ body {
 /* video information*/
 
 .video_info {
-  width: 85%;
+  width: 77%;
   background-color:white;
   font-size: .8rem;
   font-weight: 250;
