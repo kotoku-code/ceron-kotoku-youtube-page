@@ -41,7 +41,7 @@ body {
   position: relative;
   width: 33rem;
   height: 2rem;
-  left: 28%;
+  left: 20%;
 }
 
 .search__btn {
@@ -50,7 +50,7 @@ body {
   top: .6rem;
   height: 2.1rem;
   width: 3rem;
-  left: 28%;
+  left: 20%;
 }
 
 .search_icon {
