@@ -41,7 +41,7 @@ body {
   position: relative;
   width: 26rem;
   height: 2rem;
-  left: 33%;
+  left: 56%;
 }
 
 .search__btn {
@@ -50,7 +50,7 @@ body {
   top: .6rem;
   height: 2.1rem;
   width: 3rem;
-  left: 33%;
+  left: 56%;
 }
 
 .search_icon {
@@ -81,7 +81,7 @@ body {
 }
 
 .main_video {
-  height: 180vh;
+  height: 170vh;
   position: relative;
   background-color: rgb(233, 233, 233);
 }
